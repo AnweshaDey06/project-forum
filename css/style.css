@@ -1,0 +1,30 @@
+.nav-link:hover
+    {
+        background: #0dfff379;
+        color: rgb(0, 0, 0);
+        text-transform: UPPERCASE;
+    }
+    .dropdown-submenu {
+        position: relative;
+    }
+    .dropdown-submenu:hover
+    {
+        background: #FF800D;
+        color: #FF0000;
+    }
+    .dropdown-submenu a::after {
+        transform: rotate(-90deg);
+        position: absolute;
+        right: 6px;
+        top: 0.8em;
+    }
+
+    .dropdown-submenu .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+    }
+    #ques{
+        min-height:1000px;
+    }

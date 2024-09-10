@@ -15,17 +15,17 @@
     <div class="container my-3">
         <div class="jumbotron text-center bg-dark text-white">
             <h1 class="display-4">About QueryPoint</h1>
-            <p class="lead">A platform for the Directorate of Ordnance (Coordination and Services) employees to share knowledge and seek answers.</p>
+            <p class="lead">Your go-to platform for collaboration, knowledge sharing, and problem-solving.</p>
         </div>
 
         <section>
             <div class="row">
                 <div class="col-md-8">
-                    <h2>Our Mission</h2>
-                    <p style="text-align:justify">At QueryPoint, our mission is to foster a community where employees can share knowledge, collaborate on projects, and solve problems together. We believe in the power of collective intelligence and aim to create a space where everyone can learn and grow.</p>
+                    <h2>Our Vision</h2>
+                    <p style="text-align:justify">QueryPoint is designed to create a thriving community where individuals can come together to share insights, collaborate on ideas, and find solutions to challenges. We believe in the collective power of shared knowledge and are committed to fostering an environment where continuous learning and growth are at the forefront.</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="path/to/image.jpg" class="img-fluid" alt="Mission Image">
+                    <img src="img/pexels-fauxels-3184339.jpg" class="img-fluid" alt="Vision Image">
                 </div>
             </div>
         </section>
@@ -33,50 +33,47 @@
         <hr class="my-4">
 
         <section>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="path/to/image.jpg" class="img-fluid" alt="Values Image">
-                </div>
-                <div class="col-md-8">
-                    <h2>Our Values</h2>
-                    <ul>
-                        <li><strong>Collaboration:</strong> We encourage teamwork and knowledge sharing.</li>
-                        <li><strong>Integrity:</strong> We prioritize honesty and transparency in all interactions.</li>
-                        <li><strong>Innovation:</strong> We support creative problem-solving and continuous learning.</li>
-                        <li><strong>Community:</strong> We are committed to building a supportive and inclusive environment.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="img\pexels-tima-miroshnichenko-5439481.jpg" class="img-fluid mt-3" alt="Values Image">
+        </div>
+        <div class="col-md-8">
+            <h2>Our Core Principles</h2>
+            <ul style="text-align:justify">
+                <li><strong>Collaboration:</strong> We believe that teamwork fuels innovation. By working together, we can achieve more and learn from each other.</li>
+                <li><strong>Integrity:</strong> We uphold honesty and transparency in all our interactions, ensuring that our community is built on trust.</li>
+                <li><strong>Innovation:</strong> We encourage creativity and continuous learning, driving progress through fresh ideas and solutions.</li>
+                <li><strong>Respect:</strong> We value every member's voice and ensure that discussions are conducted with dignity and consideration for all viewpoints.</li>
+            </ul>
+        </div>
+    </div>
+</section>
 
         <hr class="my-4">
 
         <section>
-            <div class="row">
-                <div class="col-md-8">
-                    <h2>Key Features</h2>
-                    <p>QueryPoint offers a variety of features to enhance your experience:</p>
-                    <ul>
-                        <li>Discussion boards for sharing and seeking knowledge.</li>
-                        <li>Private messaging for direct communication.</li>
-                        <li>Customizable user profiles.</li>
-                        <li>Real-time notifications for updates and responses.</li>
-                        <li>Community guidelines to ensure a respectful environment.</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <img src="path/to/image.jpg" class="img-fluid" alt="Features Image">
-                </div>
-            </div>
-        </section>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>What We Offer</h2>
+            <p>At QueryPoint, we’re committed to empowering our community with tools and features designed to enhance collaboration and knowledge-sharing. Here's what you can expect:</p>
+            <ul style="text-align:justify">
+                <li><strong>Dynamic Discussion Boards:</strong> Engage in meaningful conversations, share insights, and get answers to your pressing questions.</li>
+                <li><strong>Personalized Profiles:</strong> Customize your user profile to reflect your expertise and interests, making it easier for others to connect with you.</li>
+                <li><strong>Community Guidelines:</strong> A set of clear and fair guidelines to ensure that QueryPoint remains a respectful and productive space for everyone.</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <img src="img\pexels-fauxels-3182774.jpg" class="img-fluid mt-3" alt="Features Image">
+        </div>
+    </div>
+</section>
 
         <hr class="my-4">
 
         <section class="text-center">
-            <h2>Join Our Community</h2>
-            <p>Become a part of our vibrant community and start sharing your knowledge today!</p>
-            <a data-toggle="modal" data-target="#signupModal"" class="btn btn-primary btn-lg text-white border-white mx-1
-            ">Sign Up</a>
+            <h2>Become a Part of QueryPoint</h2>
+            <p>Join our vibrant community and start sharing your knowledge today!</p>
+            <a data-toggle="modal" data-target="#signupModal" class="btn btn-primary btn-lg text-white border-white mx-1">Sign Up</a>
         </section>
     </div>
 

@@ -13,8 +13,8 @@
 <script language="Javascript" type="text/javascript" src="/ess/bootstrap/js/bootstrap.bundle.min.js"></script>
 <?php
 session_start();
-include "partials/loginModal.php";
-include "partials/signupModal.php";
-include "partials/nav.php";
-include "partials/handleSignup.php";
+include "loginModal.php";
+include "signupModal.php";
+include "nav.php";
+include "handleSignup.php";
 ?>

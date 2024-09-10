@@ -230,13 +230,49 @@
         }
 
         // Initially load comments with the default sort order
-        loadThreads('newest');
-    </script>
-    
+    loadThreads('newest');
+
+function addLikeButtonListeners() {
+    document.querySelectorAll('.like-btn').forEach(button => {
+        button.addEventListener('click', function() {
+            var commentId = this.getAttribute('data-id');
+            var action = this.querySelector('i').classList.contains('bi-hand-thumbs-up-fill') ? 'unlike' : 'like';
+            updateLikeStatus(commentId, action, this);
+        });
+    });
+}
+
+function updateLikeStatus(commentId, action, button) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'like_comment.php', true);
+    xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            var response = JSON.parse(xhr.responseText);
+            if (response.success) {
+                var likeIcon = button.querySelector('i');
+                var likeCount = document.getElementById(`like-count-${commentId}`);
+
+                if (action === 'like') {
+                    likeIcon.classList.remove('bi-hand-thumbs-up'); 
+                    likeIcon.classList.add('bi-hand-thumbs-up-fill');
+                } else {
+                    likeIcon.classList.remove('bi-hand-thumbs-up-fill');
+                    likeIcon.classList.add('bi-hand-thumbs-up');
+                }
+
+                likeCount.textContent = response.likes;
+            } else {
+                console.error('Failed to update like status');
+            }
+        }
+    };
+    xhr.send(`comment_id=${commentId}&action=${action}`);
+}
+</script>   
 </body>
 <?php include 'partials/footer.php'; ?>
 </html>
-
 
 
 

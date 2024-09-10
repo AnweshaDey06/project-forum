@@ -65,16 +65,17 @@
             </div>
           
             <!-- Contact Information Section -->
-            <div class="col-md-6" style="padding-left:15vh">
+            <div class="col-md-6" style="padding-left:30vh">
                 <div class="contact-info">
                     <h3>Contact Information</h3>
                     <p><i class="bi bi-telephone-fill"></i> <b>Call Us:</b> +91-9330096875</p>
                     <p><i class="bi bi-envelope-fill"></i> <b>Write Us:</b> anwesha062003@gmail.com</p>
                     <h4>Connect With Us</h4>
                     <p>
-                        <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i> Twitter</a><br>
+                        <a href="https://www.linkedin.com/in/anwesha-dey-1969a7244" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a><br>
+                        <a href="https://github.com/AnweshaDey06" target="_blank"><i class="bi bi-github"></i> Github</a><br>
                         <a href="https://www.instagram.com/_.blackrosee_?igsh=emE0MHU2cDR0YnBl" target="_blank"><i class="bi bi-instagram"></i> Instagram</a><br>
-                        <a href="https://www.facebook.com/profile.php?id=100073094345528&mibextid=ZbWKwL " target="_blank"><i class="bi bi-facebook"></i> Facebook</a>
+                        <a href="https://www.facebook.com/profile.php?id=100073094345528&mibextid=ZbWKwL " target="_blank"><i class="bi bi-facebook"></i> Facebook</a><br>
                     </p>
                 </div>
             </div>

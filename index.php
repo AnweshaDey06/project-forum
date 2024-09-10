@@ -41,13 +41,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="img/sun.jpg" alt="First Slide" style="width:500px;height:15rem;">
+                <img class="d-block w-100" src="img\pexels-kindelmedia-7688163.jpg" alt="First Slide" style="width:500px;height:20.5rem;">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="img/Planet.jpg" alt="Second Slide" style="width:500px;height:15rem;">
+                <img class="d-block w-100" src="img\pexels-hillaryfox-1595385.jpg" alt="Second Slide" style="width:500px;height:20.5rem;">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="img/Velvet.jpg" alt="Third Slide" style="width:500px;height:15rem;">
+                <img class="d-block w-100" src="img\pexels-kindelmedia-7688156.jpg" alt="Third Slide" style="width:500px;height:20.5rem;">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -82,7 +82,7 @@
                 echo '<div class="col-md-4 my-2">
                         <div class="card category-card" style="background-color:lightcyan; height:24vh; width:48vh;">
                             <div class="card-body">
-                                <h5 class="card-title"><a href="threadlist.php?catid=' . $cat_id . '?sort=newest">' . $cat_name . '</a></h5>
+                                <h5 class="card-title"><a href="threadlist.php?catid=' . $cat_id . '"?sort=newest>' . $cat_name . '</a></h5>
                                 <p class="card-text">' . substr($cat_desc, 0, 100) . '...</p>
                                 <a href="threadlist.php?catid=' . $cat_id . '" class="btn btn-primary">View Threads</a>
                             </div>

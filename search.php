@@ -10,6 +10,7 @@
                 min-height: 81.6vh;
             }
         </style>
+        <title>QueryPoint</title>
     </head>
     <body>
         <div class="container my-3">

@@ -22,9 +22,14 @@ foreach ($result as $row) {
     $comm_content = $row['comment_content'];
     $comm_time = $row['created_at'];
     $is_edited = $row['is_edited'];
+    $comm_u_id = $row['comment_by'];
+
+    $sql2 = "SELECT u_profile_photo FROM forum.users WHERE u_id = $comm_u_id";
+    $row2 = selectsql($sql2);
+    $user_photo = !empty($row2[0]['u_profile_photo']) ? $row2[0]['u_profile_photo'] : 'img/userdefault.png';
 
     echo '<div class="media my-3">
-        <img class="mr-3" src="img/user_default.png" width="50px" alt="Media Img">
+        <img class="mr-3 rounded-circle" src="' . $user_photo . '" width="50px" height="50px" alt="User Image">
         <div class="media-body">
             <p class="font-weight-bold my-0">You at ' . $comm_time . ($is_edited ? ' (edited)' : '') . '</p>
             <h5 class="mt-8"><a class="text-dark" href="threads.php?commentid=' . $comm_id . '"></a></h5>

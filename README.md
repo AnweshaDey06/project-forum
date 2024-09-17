@@ -26,6 +26,8 @@ Register and Login: Create an account or log in with your credentials.
 Browse Categories: Explore different categories to find relevant threads.  
 Participate in Discussions: Post threads and comments to engage with others.  
 Admin Management: Admin users can manage categories, threads, and user roles.  
+User Profile: Can edit one's own profile.  
+Others: Likes, edit, delete features for threads and comments.
 
 Contact -  
 Let me know if you have any feedback or questions!
